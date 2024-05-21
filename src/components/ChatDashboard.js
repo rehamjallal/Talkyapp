@@ -15,7 +15,7 @@ function ChatDashboard() {
     const [selectedPerson, setSelectedPerson] = useState(null);
     const [message, setMessage] = useState('');
     const [chatMessages, setChatMessages] = useState([]);
-
+//  array of objects will use redux or json to stored data  from back?
     const people = [
         { id: 1, name: 'Sarah Brown', image: arabic },
         { id: 2, name: 'John Doe', image: italian },
@@ -50,7 +50,7 @@ function ChatDashboard() {
                     ...prevMessages,
                     { sender: people.find(person => person.id === selectedPerson).name, message: creativeMessages[Math.floor(Math.random() * creativeMessages.length)], isMe: false }
                 ]);
-            }, 2000); // Delayed by 5 seconds
+            }, 2000);
         }
     };
 
@@ -62,18 +62,18 @@ function ChatDashboard() {
                         <h1>Welcome to Talky Chat</h1>
                         <p>Your language learning chatroom</p>
                     </div>
-
-
                     {people.map(person => (
+                        // هنا بتاكد من الكلاس هو اللى تم اختياره او لا 
                         <div key={person.id} className={`person ${selectedPerson === person.id ? 'active' : ''}`} onClick={() => handlePersonClick(person.id)}>
                             <img src={person.image} alt={person.name} />
                             <p>
                                 <h5>{person.name}</h5>
-                                <h6>hello dear well help you to learn </h6>
+                                <h6>hello dear well help you to learn</h6>
                             </p>
                         </div>
                     ))}
                 </div>
+
 
                 <div className="chat-bubble">
                     {selectedPerson && (

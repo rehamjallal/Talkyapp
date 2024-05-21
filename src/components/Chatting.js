@@ -56,7 +56,9 @@ function Chatting() {
                                 Want to learn:english<br />
                                 Can teach:italian</p>
                         </div>
-                        <h5 className="chat"><TbBrandWechat />Start Chatting</h5>
+                        <Link to={'/ChatDashboard'}>
+                            <h5 className="chat"><TbBrandWechat />Start Chatting</h5>
+                        </Link>
                     </div>
 
                     <div className="chattingCard">
@@ -69,8 +71,9 @@ function Chatting() {
                                 Want to learn:english<br />
                                 Can teach:italian</p>
                         </div>
-                        <h5 className="chat"><TbBrandWechat />Start Chatting</h5>
-                    </div>
+                        <Link to={'/ChatDashboard'}>
+                            <h5 className="chat"><TbBrandWechat />Start Chatting</h5>
+                        </Link>                    </div>
 
                     <div className="chattingCard">
                         <div className="imgDiv"><img src={Korean} /></div>
@@ -82,8 +85,9 @@ function Chatting() {
                                 Want to learn:english<br />
                                 Can teach:italian</p>
                         </div>
-                        <h5 className="chat"><TbBrandWechat />Start Chatting</h5>
-                    </div>
+                        <Link to={'/ChatDashboard'}>
+                            <h5 className="chat"><TbBrandWechat />Start Chatting</h5>
+                        </Link>                    </div>
 
                     <div className="chattingCard">
                         <div className="imgDiv"><img src={chinese} /></div>
@@ -95,8 +99,9 @@ function Chatting() {
                                 Want to learn:english<br />
                                 Can teach:italian</p>
                         </div>
-                        <h5 className="chat"><TbBrandWechat />Start Chatting</h5>
-                    </div>
+                        <Link to={'/ChatDashboard'}>
+                            <h5 className="chat"><TbBrandWechat />Start Chatting</h5>
+                        </Link>                    </div>
 
 
                     <div className="chattingCard">
@@ -109,8 +114,9 @@ function Chatting() {
                                 Want to learn:english<br />
                                 Can teach:italian</p>
                         </div>
-                        <h5 className="chat"><TbBrandWechat />Start Chatting</h5>
-                    </div>
+                        <Link to={'/ChatDashboard'}>
+                            <h5 className="chat"><TbBrandWechat />Start Chatting</h5>
+                        </Link>                    </div>
 
                     <div className="chattingCard">
                         <div className="imgDiv"><img src={German} /></div>
@@ -122,8 +128,9 @@ function Chatting() {
                                 Want to learn:english<br />
                                 Can teach:italian</p>
                         </div>
-                        <h5 className="chat"><TbBrandWechat />Start Chatting</h5>
-                    </div>
+                        <Link to={'/ChatDashboard'}>
+                            <h5 className="chat"><TbBrandWechat />Start Chatting</h5>
+                        </Link>                    </div>
 
                     <div className="chattingCard">
                         <div className="imgDiv"><img src={russianFlag} /></div>
@@ -135,8 +142,9 @@ function Chatting() {
                                 Want to learn:english<br />
                                 Can teach:italian</p>
                         </div>
-                        <h5 className="chat"><TbBrandWechat />Start Chatting</h5>
-                    </div>
+                        <Link to={'/ChatDashboard'}> 
+                            <h5 className="chat"><TbBrandWechat />Start Chatting</h5>
+                        </Link>                    </div>
                 </div>
             </div>
         </>

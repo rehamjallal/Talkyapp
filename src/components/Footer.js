@@ -1,7 +1,6 @@
 import React from 'react';
 import { MDBContainer, MDBRow, MDBCol, MDBBtn } from 'mdb-react-ui-kit';
 import { FaFacebook, FaTwitter, FaInstagram } from 'react-icons/fa';
-// import logo from '../images/logo.png';
 import logoSvg from '../images/logoSvg.svg';
 import home from '../images/home.jpg';
 function Footer() {
@@ -15,7 +14,6 @@ function Footer() {
                             <h4>Talky</h4>
                             <span>.com</span>
                         </div>
-                        {/* <img src={logo} alt="Talky Logo" className="footer-logo" /> */}
                         <p style={{ color: '#555', marginTop: '20px' }}>Talky is a free platform that helps you learn different languages in a fun and interactive way. Our mission is to make language learning simple, enjoyable, and accessible to everyone.</p>
                     </MDBCol>
                     <MDBCol md={3} className="footer-col">
